@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
         val adapter = CustomAdapter(list)
         listview.adapter = adapter
 
-        listview.setOnItemClickListener { parent, view, position, id ->
-            Toast.makeText(applicationContext,"${list[position].name}",Toast.LENGTH_SHORT).show()
-        }
+//        listview.setOnItemClickListener { parent, view, position, id ->
+//            Toast.makeText(applicationContext,"${list[position].name}",Toast.LENGTH_SHORT).show()
+//        }
     }
 }
